@@ -1,9 +1,19 @@
-# Tensorflow-Dog-Breed-Classifier
-Tensorflow Image classifier that can predict the breed of a dog from it photo. Trained on image dataset of 5 different breed of dogs (rottweiler, bulldog, pug, german shepherds, labrador). Interestingly the classifier was able to predict the breed of the dogs even from images of their toys.
+# Tensorflow Dog Breed Classifier
 
-How to run
+For all those dog lovers like me out there, here is a Tensorflow image classifier that can preict the breed of a dog from its photo. This model is trained to detect 5 different breeds of dog.
+
+1. Rottweiler
+2. Bulldog
+3. Pug
+4. German Shepherds
+5. Labrador
+
+Intrestingly enough, the model was able to classify the dog breed even from the picture of its toy. Feel free to fork and play around with the classifier.
+
+## How to run the basic model
+
+For an image located at \<path-to-image-file\>, run :
+
 ```sh
-python classifier.py --image_path test_images/image1.jpg
+python classifier.py --image_path <path-to-image-file>
 ```
-
-Give the path of the image you want to classify in the image_path.
